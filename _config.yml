@@ -1,11 +1,11 @@
 # Site settings
-title: Azmi YÜKSEL
+title: Azmi YUKSEL
 email: azmi050@gmail.com
 url: https://azmiyuksel.github.io/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "software testing, qa, selenium, python, postman, test engineer"
 skills: "Software Test Engineer"
-meta_author: YÜKSEL Azmi
+meta_author: YUKSEL Azmi
 
 # Google webmaster tools
 google_verify:
