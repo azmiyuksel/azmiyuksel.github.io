@@ -1,23 +1,32 @@
-# PanelCV
+Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
+=========================
 
-This theme is designed by [flexycodex](https://themeforest.net/item/flexyvcard-responsive-vcard-template-/7158750) and modified by [Locky](https://github.com/junlulocky)
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
 
-I have made this into a Jekyll Theme. Demo: [https://jekyller.github.io/PanelCV](https://jekyller.github.io/PanelCV)
+## How to use
+ - Place a image in `/img/portfolio/`
+ - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
+ - Create posts to display your projects. Use the follow as an example:
+```txt
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cabin.png
+alt: image-alt
+project-date: July 2014
+client: The Client
+category: Web Development
+description: The description of the project
 
-The theme would look like this 
+---
+```
 
-![Demo](/images/demo.png)
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
 
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
 
-# Installation
-
-- Fork the repository
-- Go to settings and set Github Pages source as master.
-- Your new site should be ready at https://username.github.io/PanelCV/
-
-Check out for more themes: [Jekyll Themes](http://jekylltheme.org)
-
-
-# Author
-
-- [Locky](https://github.com/junlulocky)
+---------
+For more details, read the [documentation](http://jekyllrb.com/)
